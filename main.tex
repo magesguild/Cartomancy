@@ -1,0 +1,166 @@
+\documentclass[12pt, oneside, openany]{book}
+
+% ── Encoding & Font ──────────────────────────────────────────────────────────
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{TeX Gyre Cursor}
+
+% ── Page geometry ────────────────────────────────────────────────────────────
+\usepackage[
+  paperwidth=6in,
+  paperheight=9in,
+  top=0.85in,
+  bottom=0.85in,
+  inner=0.75in,
+  outer=0.65in
+]{geometry}
+
+% ── Tables ───────────────────────────────────────────────────────────────────
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{xltabular}
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
+
+% ── Colour, graphics ─────────────────────────────────────────────────────────
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% ── Typography ───────────────────────────────────────────────────────────────
+\usepackage{microtype}
+\usepackage{setspace}
+\setstretch{1.15}
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0pt}
+
+% ── Headers and footers ──────────────────────────────────────────────────────
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape\leftmark}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\small\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% ── Chapter titles ───────────────────────────────────────────────────────────
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\large\bfseries\centering}
+  {\chaptertitlename\ \thechapter}
+  {12pt}
+  {\LARGE}
+\titlespacing*{\chapter}{0pt}{30pt}{20pt}
+
+% ── Hyperlinks ───────────────────────────────────────────────────────────────
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black,
+  pdftitle={Cartomantic Practices for Practical Use},
+  pdfauthor={},
+  bookmarks=true
+]{hyperref}
+
+% ── Bibliography ─────────────────────────────────────────────────────────────
+\usepackage[backend=biber, style=authoryear, sorting=nyt]{biblatex}
+\addbibresource{references.bib}
+
+% ── Pandoc compatibility ─────────────────────────────────────────────────────
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% ── Misc ─────────────────────────────────────────────────────────────────────
+\setlength{\headheight}{14pt}
+\usepackage{emptypage}
+\usepackage{tocloft}
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\begin{document}
+
+% ── Cover ────────────────────────────────────────────────────────────────────
+\begin{titlepage}
+  \thispagestyle{empty}
+  \begin{center}
+    \vspace*{\fill}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{cover.jpg}
+    \vspace*{\fill}
+  \end{center}
+\end{titlepage}
+
+% ── Title page ───────────────────────────────────────────────────────────────
+\begin{titlepage}
+  \thispagestyle{empty}
+  \begin{center}
+    \vspace*{2cm}
+    {\Huge\bfseries Cartomantic Practices\\[0.4em]for Practical Use}
+    \vspace{2cm}
+
+    \vfill
+    {\large 2025}
+  \end{center}
+\end{titlepage}
+
+\frontmatter
+\tableofcontents
+\clearpage
+
+% ── Introduction ─────────────────────────────────────────────────────────────
+\mainmatter
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+\markboth{Introduction}{Introduction}
+\input{chapters/intro}
+
+% ── Chapter One: Golden Dawn Magical Tarot ───────────────────────────────────
+\chapter*{The Golden Dawn Magical Tarot}
+\addcontentsline{toc}{chapter}{The Golden Dawn Magical Tarot}
+\markboth{The Golden Dawn Magical Tarot}{The Golden Dawn Magical Tarot}
+\input{chapters/preface_gd}
+\clearpage
+\input{chapters/golden_dawn_magical_tarot}
+
+% ── Chapter Two: The Smith-Waite Tarot ───────────────────────────────────────
+\chapter*{The Smith-Waite Tarot}
+\addcontentsline{toc}{chapter}{The Smith-Waite Tarot}
+\markboth{The Smith-Waite Tarot}{The Smith-Waite Tarot}
+\input{chapters/preface_sw}
+\clearpage
+\input{chapters/smith_waite_tarot}
+
+% ── Chapter Three: The English Playing Card System ───────────────────────────
+\chapter*{The English Playing Card System}
+\addcontentsline{toc}{chapter}{The English Playing Card System}
+\markboth{The English Playing Card System}{The English Playing Card System}
+\input{chapters/preface_english}
+\clearpage
+\input{chapters/english_playing_card_system}
+
+% ── Chapter Four: The Lenormand Oracle ───────────────────────────────────────
+\chapter*{The Lenormand Oracle}
+\addcontentsline{toc}{chapter}{The Lenormand Oracle}
+\markboth{The Lenormand Oracle}{The Lenormand Oracle}
+\input{chapters/preface_lenormand}
+\clearpage
+\input{chapters/lenormand_playing_card_oracle}
+
+% ── Final Chapter ────────────────────────────────────────────────────────────
+\chapter*{The Four Instruments in Practice}
+\addcontentsline{toc}{chapter}{The Four Instruments in Practice}
+\markboth{The Four Instruments in Practice}{The Four Instruments in Practice}
+\input{chapters/final_chapter}
+
+% ── Bibliography ─────────────────────────────────────────────────────────────
+\backmatter
+\nocite{*}
+\printbibliography[heading=bibintoc, title={Sources}]
+
+\end{document}
