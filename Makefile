@@ -17,7 +17,7 @@ $(OUT):
 
 $(OUT)/book.pdf: main.tex chapters/*.tex references.bib cover.jpg | $(OUT)
 	xelatex -output-directory=$(OUT) -jobname=book main.tex
-	cd $(OUT) && biber book
+	biber $(OUT)/book
 	xelatex -output-directory=$(OUT) -jobname=book main.tex
 	xelatex -output-directory=$(OUT) -jobname=book main.tex
 	@echo "PDF built: $(OUT)/book.pdf"
