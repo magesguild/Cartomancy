@@ -439,6 +439,11 @@ The full GD divinatory method from Book T, used for serious inquiry. Requires a 
 
 A spread for complex questions that presents two possible paths forward. Documented in the Cicero decks companion material. Fifteen cards are laid out in five rows of three, numbered in a spiral from the centre outward anti-clockwise:
 
+<figure>
+<img src="img_fifteen_card_spread.png" style="width:85.0%" />
+<figcaption>Image: <a href="https://seaqueen.wordpress.com/2023/07/18/15-card-english-golden-dawn-spread-featuring-ciro-marchettis-gilded-tarot-royale-deck-commenters-request-part-2-2-clarification-card-barbara-moores-classic-tarot-king-of-wands/" class="uri">https://seaqueen.wordpress.com/2023/07/18/15-card-english-golden-dawn-spread-featuring-ciro-marchettis-gilded-tarot-royale-deck-commenters-request-part-2-2-clarification-card-barbara-moores-classic-tarot-king-of-wands/</a></figcaption>
+</figure>
+
 Cards are read in five trinities. The central card of each trinity is the principal; the flanking cards are its modifiers, weighted by elemental dignity. No reversals are used throughout.
 
 - **Cards 1, 2, 3 — The Querent:** Card 1 is the core of the spread: the querent, the nature of the question, and the main operative influences. Cards 2 and 3 extend the reading of card 1, describing the surrounding circumstances and the querents own nature in relation to the matter.
