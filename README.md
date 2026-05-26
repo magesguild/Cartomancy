@@ -1,9 +1,9 @@
+![Cover](cover.jpg)
+
 # Cartomantic Practices for Practical Use
 
 **Gaius Jocundus & Thalia Ephemera** — 2026  
 Licensed [CC BY 4.0](LICENSE) — free for commercial reuse with attribution.
-
-![Cover](cover.jpg)
 
 ---
 
