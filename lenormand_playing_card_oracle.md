@@ -1,5 +1,7 @@
 # Lenormand Oracle
 
+![](img_lenormand.jpg)
+
 ## Operating Principles
 
 This system operates at the level of circumstance — what is happening, to whom, in

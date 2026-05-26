@@ -1,5 +1,7 @@
 # Golden Dawn Magical Tarot (Cicero)
 
+![](img_cicero.jpg)
+
 ## Operating Principles
 
 This system operates at the level of archetypal and cosmological forces. Every card is
