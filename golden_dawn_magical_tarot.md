@@ -594,6 +594,42 @@ reading session. Involves five successive operations, each using all 78 cards, p
 narrowing the question from the cosmos down to the specific. This method is described in
 full in the Cicero's companion book *The New Golden Dawn Ritual Tarot*.
 
+### The Fifteen Card Spread (Cicero)
+A spread for complex questions that presents two possible paths forward. Documented in
+the Cicero deck's companion material. Fifteen cards are laid out in five rows of three,
+numbered in a spiral from the centre outward anti-clockwise:
+
+```
+13 |  9 |  5
+ 4 |  8 | 12
+ 2 |  1 |  3
+14 | 10 |  6
+ 7 | 11 | 15
+```
+
+Cards are read in five trinities. The central card of each trinity is the principal; the
+flanking cards are its modifiers, weighted by elemental dignity. No reversals are used
+throughout.
+
+**Cards 1, 2, 3 — The Querent:** Card 1 is the core of the spread: the querent, the
+nature of the question, and the main operative influences. Cards 2 and 3 extend the
+reading of card 1, describing the surrounding circumstances and the querent's own
+nature in relation to the matter.
+
+**Cards 4, 8, 12 — Current Path:** The natural course of events as they would unfold
+without intervention. Read chronologically left to right.
+
+**Cards 13, 9, 5 — Alternate Path:** An alternative course of action available to the
+querent. Read left to right (13 → 9 → 5). If these cards read as continuous with rather
+than divergent from the current path, treat them as its extension: 4–8–12–13–9–5 in
+sequence.
+
+**Cards 6, 10, 14 — Psychological Basis:** The psychological ground and implications
+of the situation; the interior dimension of the question.
+
+**Cards 7, 11, 15 — Karma:** Forces operating beyond the querent's control. These are
+not to be resisted but understood and adapted to.
+
 ---
 
 ## Notes on Combinations
